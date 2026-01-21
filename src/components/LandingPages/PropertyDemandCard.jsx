@@ -20,7 +20,7 @@ const PropertyDemandCard = ({data, active, setActive}) => {
     <div
     onMouseEnter={() => setActive(id)}
      className="relative flex flex-col h-122 w-93 bg-white shadow-lg  transition-all duration-300 transform  z-10"
-  style={{ marginBottom: "20px" }}>
+  style={{ marginBottom: "20px", marginLeft: "7px", marginRight: "7px"}}>
       <div className='relative w-full h-65'>
         <NavLink className='absolute w-full h-full overflow-hidden' to="/NewDetail"> 
 

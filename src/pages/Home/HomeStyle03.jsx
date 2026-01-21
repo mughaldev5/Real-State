@@ -1,6 +1,6 @@
 import React from 'react'
-import Layout from '../wrapper'
-const HomeStyle08 = () => {
+import Layout from '../../wrapper'
+const HomeStyle03 = () => {
   return (
     <Layout>
       <div>
@@ -10,4 +10,4 @@ const HomeStyle08 = () => {
   )
 }
 
-export default HomeStyle08
+export default HomeStyle03

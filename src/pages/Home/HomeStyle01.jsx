@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../wrapper'
+import Layout from '../../wrapper'
 
 const HomeStyle01 = () => {
   return (

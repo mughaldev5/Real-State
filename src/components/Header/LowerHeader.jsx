@@ -5,8 +5,12 @@ import { IoSearchSharp } from "react-icons/io5";
 import { FaUser, FaShoppingCart } from "react-icons/fa";
 import { CgClose } from "react-icons/cg";
 import { GiHamburgerMenu } from "react-icons/gi";
-import Dropdown from "../components/Dropdown";
-import HeaderData from "../api/HeaderData.json";
+import Dropdown from "./MegaMenu/Dropdown";
+
+import HeaderData from "../../api/HeaderData";
+
+
+
 
 const LowerHeader = () => {
   const { homeLinks, aboutLinks, propertyLinks, newsLinks } = HeaderData;

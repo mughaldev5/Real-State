@@ -1,15 +1,15 @@
 import React from 'react'
-import Layout from '../wrapper'
+import Layout from '../../wrapper'
 
-const News = () => {
+const Contact = () => {
     return (
         <Layout>
             <div>
-                <h1>news</h1>
+                <h1>contact</h1>
             </div>
 
         </Layout>
     )
 }
 
-export default News
+export default Contact

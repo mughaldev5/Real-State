@@ -10,7 +10,7 @@ function NextArrow(props) {
   const { className, onClick } = props;
   return (
     <div
-      className={`${className} opacity-0 group-hover:opacity-100 transition-opacity duration-300 !flex !items-center !justify-center !bg-orange-600 !rounded-full !w-10 !h-10 !z-20 !right-2`}
+      className={`${className} opacity-0 group-hover:opacity-100 transition-opacity duration-300 !flex !items-center !justify-center !bg-orange-600 !rounded-full !w-10 !h-10 !z-20 !right-[-20px]`}
       onClick={onClick}
     >
      <FaArrowRight/> 
@@ -22,7 +22,7 @@ function PrevArrow(props) {
   const { className, onClick } = props;
   return (
     <div
-      className={`${className} opacity-0 group-hover:opacity-100 transition-opacity duration-300 !flex !items-center !justify-center !bg-orange-600 !rounded-full !w-10 !h-10 !z-20 !left-2`}
+      className={`${className} opacity-0 group-hover:opacity-100 transition-opacity duration-300 !flex !items-center !justify-center !bg-orange-600 !rounded-full !w-10 !h-10 !z-20 !left-[-37px]`}
       onClick={onClick}
     >
       <FaArrowLeft/>
@@ -81,7 +81,7 @@ const PropertyDemandMap = ({ active, setActive }) => {
       </div>
 
       {/* Slider */}
-      <div className="relative mt-10 w-full max-w-7xl group mx-auto">
+      <div className="relative mt-10 w-full max-w-7xl group mx-auto" style={{ gap: "0px"}}>
   <Slider {...settings}>
     {homedemand.map((card) => (
       <div key={card.id} className="px-3">

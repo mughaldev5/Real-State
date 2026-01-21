@@ -1,6 +1,6 @@
 import React from 'react'
-import UpperHeader from './UpperHeader'
-import LowerHeader from './LowerHeader'
+import UpperHeader from '../components/Header/UpperHeader'
+import LowerHeader from '../components/Header/LowerHeader'
 
 const Header = () => {
   return (

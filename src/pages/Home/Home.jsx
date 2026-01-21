@@ -1,17 +1,18 @@
 import React, { useState } from 'react';
-import Layout from '../wrapper';
-import HomeCardMap from '../components/HomeCardMap';
-import MenuDropdown from '../components/MenuDropdown';
-import AboutdetailMap from '../components/AboutdetailMap';
-import ProjectStatus from '../components/ProjectStatus';
-import HomedetailsMap from '../components/HomedetailsMap';
-import PropertyRentMap from '../components/PropertyRentMap';
-import Homepage from '../components/Homepage';
-import FacilityCardsMap from '../components/FacilityCardsMap';
-import AgentReviewMap from '../components/AgentReviewMap';
-import PropertyDemandMap from '../components/PropertyDemandMap';
-import DreamHomeCTA from '../components/DreamHomeCTA';
-import ServicecardMap from '../components/ServicecardMap';
+import Layout from '../../wrapper';
+import HomeCardMap from "../../components/LandingPages/HomeCardMap";
+import MenuDropdown from "../../components/LandingPages/MenuDropdown";
+import AboutdetailMap from "../../components/LandingPages/AboutdetailMap";
+import ProjectStatus from "../../components/LandingPages/ProjectStatus";
+import HomedetailsMap from "../../components/LandingPages/HomedetailsMap";
+import PropertyRentMap from "../../components/LandingPages/PropertyRentMap";
+import Homepage from "../../components/LandingPages/Homepage";
+import FacilityCardsMap from "../../components/LandingPages/FacilityCardsMap";
+import AgentReviewMap from "../../components/LandingPages/AgentReviewMap";
+import PropertyDemandMap from "../../components/LandingPages/PropertyDemandMap";
+import DreamHomeCTA from "../../components/LandingPages/DreamHomeCTA";
+import ServicecardMap from "../../components/LandingPages/ServicecardMap";
+
 const Home = () => {
     const [active, setActive] = useState(null);
 
@@ -61,10 +62,6 @@ const Home = () => {
 
                 <div>
                     <PropertyDemandMap  active={active} setActive={setActive}/>
-                </div>
-                
-                <div className='relative flex justify-center '>
-                    <DreamHomeCTA/>
                 </div>
             </Layout>
         </div>
