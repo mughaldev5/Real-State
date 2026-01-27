@@ -37,7 +37,7 @@ const ServicecardMap = ({ active, setActive }) => {
                             </h1>
                         </div>
                     </div>
-                    <div className='relative flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-wrap sm:flex-col flex-col  justify-center md:gap-y-8 sm:gap-y-8 gap-y-8 pt-68 space-x-9 overflow-hidden'>
+                    <div className='relative flex flex-col justify-center lg:flex-row gap-8 pt-68  overflow-hidden'>
                         {
                             service.map((curElem) => (
                                 <ServiceCard key={curElem.id} data={curElem} active={active} setActive={setActive} />

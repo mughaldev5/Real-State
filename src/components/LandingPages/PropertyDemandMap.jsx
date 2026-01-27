@@ -81,10 +81,10 @@ const PropertyDemandMap = ({ active, setActive }) => {
       </div>
 
       {/* Slider */}
-      <div className="relative mt-10 w-full max-w-7xl group mx-auto" style={{ gap: "0px"}}>
+      <div className="relative  mt-10 w-full max-w-7xl group mx-auto" style={{ gap: "0px"}}>
   <Slider {...settings}>
     {homedemand.map((card) => (
-      <div key={card.id} className="px-3">
+      <div key={card.id} className="!flex !justify-center px-3">
         <PropertyDemandCard
           data={card}
           active={active}

@@ -238,7 +238,7 @@ const PropertyRentMap = ({ active, setActive}) => {
       {/* Slider Section */}
       <Slider {...settings}>
         {homedemand.map((curElem) => (
-          <div key={curElem.id} className="!flex !justify-center ">
+          <div key={curElem.id} className="!flex !justify-center">
             <PropertyRentCard data={curElem} active={active} setActive={setActive}/>
           </div>          
         ))}

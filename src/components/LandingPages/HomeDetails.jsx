@@ -5,9 +5,9 @@ import { FaCar } from "react-icons/fa";
 import { BsTextarea } from "react-icons/bs";
 
 const HomeDetails = ({ data }) => {
-  const { id, title, para, live, boat, stylemusic, music, rom, rom1, parking, square, img_url, img_url1, img_url2, img_url3, img_url4, img_url5 } = data
+  const { title, para, live, boat, stylemusic, music, rom, rom1, parking, square, img_url1, img_url2, img_url3, img_url4, img_url5 } = data
   return (
-    <div className='relative flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col justify-center md:items-center sm:items-center items-center pt-30 sm:space-x-15 md:space-x-15 md:gap-y-6 sm:gap-y-6 gap-y-6 overflow-hidden'>
+    <div className='relative flex lg:flex-row md:flex-co sm:flex-col flex-col justify-center sm:items-center items-center xl:mt-25 lg:mt-18 sm:mt-12  overflow-hidden'>
       <div className='relative 2xl:w-xl xl:w-xl lg:w-110 md:w-116 sm:w-108 w-87  '>
         <div className='flex justify-center items-center bg-orange-100 h-8 w-32  rounded-2xl'>
           <h1 className='text-orange-600 items-center'>About Us</h1>
@@ -66,25 +66,25 @@ const HomeDetails = ({ data }) => {
           </div>
         </div>
         <div className='relative flex space-x-2 mt-7 '>
-          <div className='sm:size-45 md:size-45 size-36'>
-            <img src={img_url3} alt="HOuse" />
+          <div className='sm:size-45 md:size-45 size-41.5'>
+            <img src={img_url3} alt="House" />
           </div>
-          <div className='sm:size-39 md:size-39 size-30'>
-            <img src={img_url4} alt="HOuse" />
+          <div className='sm:size-39 md:size-39 size-36'>
+            <img src={img_url4} alt="House" />
           </div>
-          <div className='sm:size-45 md:size-45 size-36'>
-            <img src={img_url5} alt="HOuse" />
+          <div className='sm:size-45 md:size-45 size-41.5'>
+            <img src={img_url5} alt="House" />
           </div>
         </div>
       </div>
-      <div className='relative h-148 2xl:w-xl xl:w-xl lg:w-110 md:w-110 sm:w-102 w-98 flex overflow-hidden border-15 md:border-15 sm:border-15 border-white shadow-lg gap-1'>
-        <div className='flex flex-col w-1/2 h-full'>
+      <div className='relative flex flex-col sm:flex-row sm:h-148 h-auto 2xl:w-xl xl:w-xl lg:w-110 md:w-110 sm:w-108 w-98 overflow-hidden border-15 md:border-15 sm:border-15 border-white shadow-lg '>
+        <div className='flex flex-col sm:w-1/2 w-full h-full'>
           <img className=' h-full' src={img_url2} alt="House" />
         </div>
-        <div className='flex flex-col w-1/2  gap-1'>
-          <img className="h-1/2 w-full object-cover"
+        <div className='flex flex-col sm:w-1/2 w-full  gap-1'>
+          <img className="sm:h-1/2 h-auto w-full object-cover"
             src={img_url4} alt="House" />
-          <img className="h-1/2 w-full object-cover"
+          <img className="sm:h-1/2 h-auto w-full object-cover"
             src={img_url1} alt="House" />
         </div>
       </div>

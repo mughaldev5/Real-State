@@ -134,7 +134,7 @@ const Homepage = () => {
       {/* Content */}
       <div className="flex flex-col lg:flex-row gap-12 items-center justify-center">
         {/* Left Card */}
-        <div className="bg-[#ff5a3c] text-white p-10 w-full lg:w-1/2 xl:w-5/12 2xl:w-5/12">
+        <div className="bg-[#ff5a3c] text-white p-10 w-3/4 xl:w-5/12 2xl:w-5/12">
 
           <h2 className="text-2xl font-bold">
             {tabData[activeTab].title}
@@ -148,7 +148,7 @@ const Homepage = () => {
         </div>
 
         {/* Right Image */}
-       <div className="w-full lg:w-1/2 xl:w-5/12 2xl:w-5/12
+       <div className="w-3/4 xl:w-5/12 2xl:w-5/12
 ">
 
           <img

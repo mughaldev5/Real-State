@@ -103,7 +103,7 @@ var settings = {
       </div>
         <h1  className='mt-8 text-5xl font-bold text-gray-800'>Clients feedback</h1>
     </div>
-    <div className='testimonial-slider relative z-20 translate-y-36 group 2xl:w-7xl xl:w-7xl lg:w-5xl mx-auto' >
+    <div className='testimonial-slider relative z-20 translate-y-36 group 2xl:w-7xl xl:w-7xl lg:w-5xl mx-auto' style={{ marginBottom: "20px" }} >
 <Slider {...settings}>      {
         feedbackcard.map((item) =>(
           <AgentReview key={item.id} data={item}/>

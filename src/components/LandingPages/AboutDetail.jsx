@@ -4,13 +4,13 @@ import { GiConcentricCrescents } from "react-icons/gi";
 import { IoIosFitness } from "react-icons/io";
 import { SiSecurityscorecard } from "react-icons/si";
 const AboutDetail = ({ data }) => {
-  const { id, img_url, title, para, design, sence, style, security, para1 } = data
+  const { img_url, title, para, design, sence, style, security, para1 } = data
   return (
-    <div className='relative flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col justify-center md:items-center sm:items-center items-center pt-45 md:space-x-20 sm:space-x-20 space-x-5 overflow-hidden '>
+    <div className='relative flex font-sans lg:flex-row md:flex-col sm:flex-col flex-col justify-center md:items-center  items-center xl:pt-35 lg:pt-25 md:pt-20 sm:pt-10 pt-10 mb-9 md:space-x-20 sm:space-x-20 space-x-5 overflow-hidden '>
       <div className='md:border-15 sm:border-15 border-5 border-white shadow-lg'>
         <img className='h-147 2xl:w-105  xl:w-105 lg:w-90 md:w-105 sm:w-90 w-88' src={img_url} alt="" />
       </div>
-      <div className='relative 2xl:w-138 xl:w-138 lg:w-105 md:w-138 sm:w-90 w-88 '>
+      <div className='relative 2xl:w-138 xl:w-138 lg:w-105 md:w-138 sm:w-90 w-88 lg:pt-0 sm:pt-10 pt-10 '>
         <div className='flex justify-center items-center bg-orange-100 h-8 w-32  rounded-2xl'>
           <h1 className='text-orange-600 items-center'>About Us</h1>
         </div>
