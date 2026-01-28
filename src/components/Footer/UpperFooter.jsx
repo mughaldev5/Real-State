@@ -6,7 +6,7 @@ import CustomercareFooter from './UperFooter/CustomercareFooter'
 import NewsletterFooter from './UperFooter/NewsletterFooter'
 const UpperFooter = () => {
   return (
-    <div className='flex md:flex-wrap  justify-around h-auto xl:gap-0 lg:gap-16 md:gap-16 sm:gap-10 gap-10 pt-40 pb-23 bg-gray-950'>
+    <div className='flex xl:flex-row flex-col justify-around h-auto xl:gap-0 lg:gap-16 md:gap-16 sm:gap-10 gap-10 pt-40 pb-23 xl:pl-0  md:pl-40 sm:pl-20 pl-1 bg-gray-950'>
    <StateFooter/>
    <CompanyFooter/>
    <ServicesFooter/>
