@@ -45,7 +45,7 @@ const RegisterFormPage = ({user, onChange, onSubmit}) => {
       />
       
         <input className='outline-none bg border-2 border-gray-200 focus:border-gray-200 focus:right-0 invalid:border-gray-200 focus:outline-none h-18 w-120 pl-9 appearance-none' 
-        type="confirmpassword" 
+        type="password" 
         name='confirmpassword' 
         placeholder='Confirm Password*' 
         required 

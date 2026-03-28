@@ -3,7 +3,7 @@ import Layout from '../../wrapper';
 import HomeCardMap from "../../components/LandingPages/HomeCardMap";
 import MenuDropdown from "../../components/LandingPages/MenuDropdown";
 import AboutdetailMap from "../../components/LandingPages/AboutdetailMap";
-import ProjectStatus from "../../components/LandingPages/ProjectStatus";
+import ProjectStatusList from "../../components/LandingPages/ProjectStatusList";
 import HomedetailsMap from "../../components/LandingPages/HomedetailsMap";
 import PropertyRentMap from "../../components/LandingPages/PropertyRentMap";
 import Homepage from "../../components/LandingPages/Homepage";
@@ -32,8 +32,8 @@ const Home = () => {
                      <AboutdetailMap/>
                 </div>
 
-                <div >
-                    <ProjectStatus />
+                <div className='relatve flex justify-center w-full bg-gray-100'>
+                    <ProjectStatusList />
                 </div>
 
                 <div >

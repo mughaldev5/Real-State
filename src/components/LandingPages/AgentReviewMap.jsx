@@ -63,7 +63,7 @@ function PrevArrow(props) {
   );
 }
 
-const AgentReviewMap = () => {
+const AgentReviewMap = ({active, setActive}) => {
 
 var settings = {
   infinite: true,
@@ -106,7 +106,7 @@ var settings = {
     <div className='testimonial-slider relative z-20 translate-y-36 group 2xl:w-7xl xl:w-7xl lg:w-5xl mx-auto' style={{ marginBottom: "20px" }} >
 <Slider {...settings}>      {
         feedbackcard.map((item) =>(
-          <AgentReview key={item.id} data={item}/>
+          <AgentReview key={item.id} data={item} active={active} setActive={setActive}/>
         )
         )}
         </Slider>

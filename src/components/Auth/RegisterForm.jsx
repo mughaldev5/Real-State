@@ -10,7 +10,7 @@ const RegisterForm = () => {
         lastname: "",
         email: "",
         password: "",
-        comfirm : ""
+        comfirmpassword : ""
     
     }); 
 
