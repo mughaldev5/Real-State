@@ -6,7 +6,7 @@ import React from 'react'
    return ( 
     <div className='relative flex flex-col items-center p-6 gap-7 rounded-lg overflow-hidden'>
      
-        <div className='  pr- text-orange-600'>
+        <div className='text-orange-600'>
           <img className='w-16 h-16' src={data.projectIcons} alt="" />
         </div>
      <div className='flex flex-col items-center gap-4'>
