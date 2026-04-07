@@ -62,7 +62,7 @@ const ResponsiveLowerHeader = ({setShowMenu}) => {
                         <span className='absolute top-3.5 left-2.5 text-lg'><FaRegHeart /></span>
                     <span className='absolute text-xs top-1.5 right-1.5 text-gray-500'>3</span>
                     </div>
-                    <h1 className='text-gray-500 font-sans font-mediu'>Wishlist</h1>
+                    <h1 className='text-gray-500 font-sans font-medium'>Wishlist</h1>
                   </NavLink>
                   
                   <NavLink className="relative flex items-center gap-4 hover:bg-orange-600 hover:text-white" to="/salespropty">
